@@ -115,6 +115,8 @@ class BaseRandom
 
     choice: (seq) =>
         # Return a random element from the non-empty sequence `seq`.
+        if seq.length == 1 # @_randbelow stalls for ~30 seconds when selecting from a list of length 1
+            return seq[0]
         seq[@_randbelow seq.length]
 
     sample: (population, k=1) =>

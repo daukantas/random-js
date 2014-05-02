@@ -3,9 +3,9 @@
     "version": "0.2.0",
     "author": [
         {
-            "name": "",
-            "email": "",
-            "url": ""
+            "name": "Jacob Rus",
+            "email": "me@jacobrus.com",
+            "url": "http://www.hcs.harvard.edu/~jrus/"
         }, 
         {
             "name": "",
@@ -13,5 +13,10 @@
             "url": ""
         }
     ],
-    "main": "./random.js"
+    "main": "./random.js",
+    "description": "A fairly close port of the Python Standard Library’s random module.",
+    "dependencies": [],
+    "devDependencies": {
+        "coffee-script": ">=1.7.x"
+    }
 }

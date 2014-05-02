@@ -1,0 +1,17 @@
+{
+    "name":"random-js",
+    "version": "0.2.0",
+    "author": [
+        {
+            "name": "",
+            "email": "",
+            "url": ""
+        }, 
+        {
+            "name": "",
+            "email": "",
+            "url": ""
+        }
+    ],
+    "main": "./random.js"
+}
